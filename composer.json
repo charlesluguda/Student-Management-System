@@ -1,0 +1,15 @@
+{
+    "name": "school/management",
+    "description": "school",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "School\\Management\\": "src/"
+        }
+    },
+    "minimum-stability": "beta",
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "twilio/sdk": "^8.1"
+    }
+}

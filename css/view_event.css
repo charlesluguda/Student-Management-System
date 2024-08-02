@@ -1,0 +1,124 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+        
+body {
+font-family: Arial, sans-serif;
+background-color: #f2f2f2;
+margin: 0;
+padding: 0;
+height: 40vh; 
+display: flex; 
+justify-content: center; 
+align-items: center; 
+}
+.back-card {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    background-color: #4f9354eb;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+
+.back-card img {
+    width: 50px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+.back-card h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.back-card button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    height: 40px;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+.container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #4f9354eb;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+.actions {
+    text-align: center;
+    
+
+}
+.edit-btn i,
+.delete-btn i,
+.delete-btn i {
+margin-right: 5px;
+}
+.actions a{
+    text-decoration : none;
+    font-size : 16px;
+    font-size: 12px;
+}
+
+.edit-btn, .delete-btn, .view-btn {
+    padding: 7px;
+    margin-right: 5px;
+    background-color: #4f9354eb;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background-color: #f44336;
+  
+}
+.view-btn {
+    background-color: blue;
+}

@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.back-card {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    display: flex;
+    background-color: #4f9354eb;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 7px 33px 1px rgba(0,0,0,0.57);
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+
+.back-card img {
+    width: 50px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+.back-card h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.back-card button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    height: 40px;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+ label {
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+select {
+    padding: 5px;
+    width: 150px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+} 
+.form-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+    text-align: left;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+p {
+    text-align: center;
+    color: #333;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+} 
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #f4f4f4;
+    margin: 90px auto;
+    height: 350px;
+    border-radius: 5px;
+    flex-direction: column;
+    width: 70%;
+    box-shadow: 5px 7px 33px 1px rgba(0,0,0,0.57);
+}
+.container h2{
+    padding: 10px 10px;
+}

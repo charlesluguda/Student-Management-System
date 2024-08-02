@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+body {
+    font-weight: 600;
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa;
+}
+
+.back-card {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    background-color: #4f9354eb;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+
+.back-card img {
+    width: 50px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+.back-card h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.back-card button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-color 0.3s ease;
+}
+.container {
+    margin-top: 200px; /* Adjust this value as needed */
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+th {
+    background-color: #4f9354eb;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(odd) {
+    background-color: #e6e6e6;
+}
+
+.container img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.action-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.action-icons a {
+    color: #007bff;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.action-icons a:hover {
+    background-color: #d0d0d0;
+}
+
+.search-form {
+    position: fixed;
+    top: 50px;
+    left: 15px;
+    right: 10px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+
+.search-form input[type="text"] {
+    padding: 8px;
+    width: calc(100% - 100px);
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+}
+
+.search-form input[type="submit"] {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-form input[type="submit"]:hover {
+    background-color: #45a049;
+}

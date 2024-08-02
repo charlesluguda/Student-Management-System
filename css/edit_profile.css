@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+.back-card {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    background-color: #4f9354eb;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+
+.back-card img {
+    width: 50px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+.back-card h2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 30px;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.back-card button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    height: 40px;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+.main-content{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+    gap: 30px;
+}
+.profile{
+    background: #f5f4f2;
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+    height: 250px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    align-items: center;
+    box-shadow: 5px 7px 33px 1px rgba(0,0,0,0.57);
+}
+.profile img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #4f9354eb;
+}
+.profile .divider{
+    width: 80%;
+    background: #4f9354eb;
+    height: 2px;
+    margin: 5px auto;
+}
+.profile .profile-info{
+    text-align: left;
+    margin-left: 40px;
+}
+.profile-updates{
+    background: #f5f4f2;
+    width: 60%;
+    height: 250px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    box-shadow: 5px 7px 33px 1px rgba(0,0,0,0.57);
+}
+.profile-updates form{
+    display: flex;
+    flex-direction: column;
+}
+form input{
+    width: 50%;
+    margin: 10px 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+input[type="submit"]{
+    width: 150px;
+    background: #4f9354eb;
+    border: none;
+    font-weight: bold;
+    padding: 5px 5px;
+}

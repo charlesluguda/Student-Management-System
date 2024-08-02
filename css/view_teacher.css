@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+  h2 {
+    text-align: center;
+   margin-top:190px;
+  }
+
+  table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    margin-top:220px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  table th, table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+
+  th {
+    background-color: #4f9354eb;
+    color: white;
+    font-weight: bold;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(odd) {
+    background-color: #e6e6e6;
+}
+
+  table td {
+    vertical-align: middle;
+  }
+
+  table td img {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+  }
+
+  table td a {
+    margin-right: 10px;
+    color: #007bff;
+  }
+
+  table td a:hover {
+    color: #0056b3;
+  }
+
+  .back-card {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            display: flex;
+            background-color: #4f9354eb;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 10px;
+            box-sizing: border-box;
+            z-index: 1000;
+        }
+
+        .back-card img {
+            width: 50px;
+            border-radius: 50px;
+            margin-left: 10px;
+        }
+
+        .back-card h2 {
+            text-align: center;
+            color: #ffffff;
+            font-size: 30px;
+            margin: 0;
+            flex-grow: 1;
+        }
+
+        .back-card button {
+            background-color: #fff;
+            color: #000;
+            border: none;
+            height: 40px;
+            border-radius: 8px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+
+        .search-form {
+            position: fixed;
+            top: 90px;
+            width: 50%;
+            left: 15px;
+            right: 10px;
+            border-radius: 15px;
+            background-color: #ffffff;
+            padding: 10px;
+            margin: auto;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 999;
+        }
+        .search{
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .search-form input[type="text"] {
+            padding: 8px;
+            width: calc(100% - 100px);
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            margin-top: 5px;
+        }
+
+        .search-form input[type="submit"] {
+            padding: 10px 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .search-form input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        .fa-trash-alt{
+            color: red;
+        }
+        .search-button{
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
