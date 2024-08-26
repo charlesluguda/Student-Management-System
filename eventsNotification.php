@@ -18,7 +18,7 @@
     <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         
-        include 'database.php';
+        include './Includes/database.php';
         
  // Get POST parameters
  $title = $_POST['title'];

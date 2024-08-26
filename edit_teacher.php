@@ -1,8 +1,7 @@
 <?php
 // Include session.php and database.php
 include 'session.php';
-include 'database.php';
-
+include './Includes/database.php';
 // Fetch teacher data based on ID
 if (isset($_GET['teacherID']) && !empty($_GET['teacherID'])) {
     $teacher_id = $_GET['teacherID'];

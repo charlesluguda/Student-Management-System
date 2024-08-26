@@ -1,5 +1,6 @@
 <?php 
 include 'session.php';
+include './Includes/database.php';
 ?>
 
 <!DOCTYPE html>
@@ -139,42 +140,6 @@ body {
     </a>
 </div>
 </div>
-
- <!-- <script>
-        // Initialize a timer variable
-        let timer;
-
-        // Reset the timer function
-        function resetTimer() {
-            // Clear the existing timer
-            clearTimeout(timer);
-            // Start a new timer
-            timer = setTimeout(logout, 12000); // 50 seconds
-        }
-
-        // Logout function
-        function logout() {
-            // Display countdown message
-            let count = 10;
-            const countdownInterval = setInterval(() => {
-                if (count >= 0) {
-                    console.log(count); // Change this to display countdown message on the page
-                    count--;
-                } else {
-                    clearInterval(countdownInterval); // Stop the countdown
-                    // Redirect to logout page or perform logout action
-                    window.location.href = "logout.php"; // Redirect to logout page
-                }
-            }, 1000); // Update countdown every second
-        }
-        // Add event listeners to reset the timer on user activity
-        document.addEventListener("mousemove", resetTimer);
-        document.addEventListener("keypress", resetTimer);
-
-        // Start the initial timer
-        resetTimer();
-    </script> -->
-
 </script> 
 </body>
 </html>

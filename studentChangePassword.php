@@ -1,6 +1,6 @@
 <?php
 header('Content-Type: application/json');
-include 'database.php'; // Ensure you have your database connection script included
+include './Includes/database.php'; // Ensure you have your database connection script included
 
 $response = array();
 

@@ -1,7 +1,6 @@
 <?php
 // Include the database connection file
-include 'database.php';
-
+include './Includes/database.php';
 // Check if ID parameter is provided
 if(isset($_GET['studentID'])) {
     $id = $_GET['studentID'];

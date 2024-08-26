@@ -1,7 +1,6 @@
 <?php
 include 'session.php';
-include 'database.php';
-
+include './Includes/database.php';
 $result_row = null; // Initialize $result_row to null
 
 // Check if studentID is set and is a valid integer

@@ -1,8 +1,7 @@
 <?php
 // Include session and database files
 include 'session.php';
-include 'database.php';
-
+include './Includes/database.php';
 // Initialize variables to store teacher data
 $id = $teacherUsername = $teacherEmail = $teacherPicture = '';
 
@@ -80,7 +79,7 @@ if(isset($_SESSION['teacherID'])) {
 
 <?php
 // Include database file
-include 'database.php';
+include './Includes/database.php';
 
 // Check if form is submitted for updating profile
 if(isset($_POST['update_profile'])) {

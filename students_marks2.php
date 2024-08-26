@@ -138,7 +138,7 @@ include 'session.php';
     <?php
    
     // Include database connection file
-    include 'database.php';
+    include './Includes/database.php';
 
     // Fetch students data from the database
     $sql = "SELECT studentID, firstname, middlename, lastname, class FROM students";

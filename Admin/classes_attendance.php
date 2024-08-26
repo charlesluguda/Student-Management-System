@@ -1,6 +1,6 @@
 <?php
-include 'session.php';
-include 'database.php';
+include '../session.php';
+include '../Includes/database.php';
 
 // Initialize variables
 $access_granted = false;

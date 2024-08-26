@@ -1,7 +1,7 @@
 <?php
 // Include the database connection file
 include 'session.php';
-include 'database.php';
+include './Includes/database.php';
 require 'vendor/autoload.php'; // Include Composer's autoloader for PHPMailer
 
 use PHPMailer\PHPMailer\PHPMailer;

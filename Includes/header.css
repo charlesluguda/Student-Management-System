@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Moderustic", sans-serif;
+}
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    background: #4f9354eb;
+    padding: 10px 10px;
+}
+.header-container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-container .user {
+    display: flex;
+    align-items: center;
+}
+.header-container .logo {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 22px;
+}
+.user-avatar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative; 
+}
+.user-avatar img {
+    border: 5px solid #fff;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;    
+    border-radius: 50%;
+}
+.user-avatar p {
+    font-size: 15px;
+}
+.menu-btn {
+    color: #000;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex; 
+    align-items: center;
+}
+.menu-btn .bi {
+    display: block; 
+}
+.dropdown-menu {
+    display: none; 
+    position: absolute; 
+    top: 100%; 
+    left: 0; 
+    background-color: #fff; 
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    z-index: 1000; 
+}
+
+.dropdown-menu li {
+    padding: 10px; 
+}
+.dropdown-menu li:nth-child(2){
+    border-top: 1px solid black;
+}
+
+.dropdown-menu li a {
+    text-decoration: none;
+    color: #000; 
+    display: block; 
+}
+
+.user-avatar:hover .dropdown-menu {
+    display: block; 
+}

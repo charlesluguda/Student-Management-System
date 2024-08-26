@@ -3,7 +3,7 @@
 include 'session.php';
 
 // Include the database connection file
-include 'database.php';
+include './Includes/database.php';
 
 // Initialize error variable
 $error = "";

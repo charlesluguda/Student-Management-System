@@ -1,7 +1,7 @@
 <?php
 // Include session.php and database.php
-include 'session.php';
-include 'database.php';
+include '../session.php';
+include '../Includes/database.php';
 
 // Fetch teachers data from the database based on search criteria
 if (isset($_GET['search'])) {

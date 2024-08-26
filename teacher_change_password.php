@@ -1,6 +1,6 @@
 <?php
 include 'session.php'; // Include the session file for session management
-include 'database.php'; // Include the database connection file
+include './Includes/database.php';// Include the database connection file
 
 // Initialize error and success messages
 $error = "";

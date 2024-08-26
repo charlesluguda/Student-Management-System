@@ -1,8 +1,7 @@
 <?php
 include 'session.php';
 // Include the database connection file
-include 'database.php';
-
+include './Includes/database.php';
 // Check if eventID is provided
 if(isset($_GET['eventID'])) {
     // Retrieve event details from the database

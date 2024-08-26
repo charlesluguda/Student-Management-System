@@ -1,5 +1,5 @@
 <?php
-    include 'database.php'; // Assuming you have a file named 'database.php' for database connection
+    include './Includes/database.php'; // Assuming you have a file named 'database.php' for database connection
 
 // Check if 'name' and 'suggestion' are set in the POST data
 if(isset($_POST['name']) && isset($_POST['suggestion'])) {

@@ -1,5 +1,5 @@
 <?php
-include 'database.php';
+include './Includes/database.php';
 
 header('Content-Type: application/json');
 

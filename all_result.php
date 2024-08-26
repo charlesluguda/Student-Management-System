@@ -1,6 +1,6 @@
 <?php
 include 'session.php';
-include 'database.php';
+include './Includes/database.php';
 
 // Retrieve all student results
 $results_sql = "SELECT students.studentID, CONCAT(students.firstname, ' ', students.middlename, ' ', students.lastname) AS fullname, results.mathematics, results.science, results.english, results.history, results.geography, results.total_marks, results.average, results.grade, results.position, results.remark FROM students INNER JOIN results ON students.studentID = results.studentID";

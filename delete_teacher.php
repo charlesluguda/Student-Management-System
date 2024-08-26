@@ -1,8 +1,7 @@
 <?php
 // Include session.php and database.php
 
-include 'database.php';
-
+include './Includes/database.php';
 // Check if the teacher ID is set and not empty
 if (isset($_GET['teacherID']) && !empty($_GET['teacherID'])) {
     // Prepare SQL statement to delete the teacher

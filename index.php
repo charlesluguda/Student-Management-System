@@ -1,7 +1,7 @@
 
 <?php
 session_start();
-include 'database.php';
+include './Includes/database.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Gather form data
@@ -67,7 +67,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <p>Student Management System</p>
   </div>
   
-  <form action="teacher_login.php" method="POST">
+  <form action="index.php" method="POST">
     <div class="form-group">
       <i class="fa fa-envelope"></i>
       <input type="email" id="email" name="email" placeholder="    Email" required> <!-- Added spaces before Email -->

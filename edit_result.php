@@ -105,8 +105,7 @@ include 'session.php';
             <input type="hidden" id="studentID" name="studentID" value="<?php echo isset($_GET['studentID']) ? $_GET['studentID'] : 'Unknown'; ?>">
 
             <?php
-            include 'database.php';
-
+             include './Includes/database.php';
             // Check if results already exist for the student
             $studentID = isset($_GET['studentID']) ? $_GET['studentID'] : null;
             if ($studentID) {

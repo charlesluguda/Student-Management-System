@@ -1,6 +1,6 @@
 <?php
-include 'session.php';
-include 'database.php';
+include '../session.php';
+include '../Includes/database.php';
 
 // Initialize variables to store selected class, semester, and month
 $selected_class = $selected_semester = $selected_month = "";

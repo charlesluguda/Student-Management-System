@@ -1,6 +1,6 @@
 <?php
 include 'session.php';
-include 'database.php';
+include './Includes/database.php';
 
 // Check if student_id is provided
 if (isset($_GET['studentID'])) {

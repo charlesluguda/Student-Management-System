@@ -1,7 +1,7 @@
 <?php
 // Include session.php and database.php
-include 'session.php';
-include 'database.php';
+include '../session.php';
+include '../Includes/database.php';
 
 // Fetch subjects data from the database
 $sql = "SELECT subjects.*, teachers.email AS email FROM subjects 

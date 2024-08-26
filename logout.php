@@ -9,6 +9,6 @@ $_SESSION = array();
 session_destroy();
 
 // Redirect to the login page after logout
-header("Location: teacher_login.php");
+header("Location: index.php");
 exit();
 ?>

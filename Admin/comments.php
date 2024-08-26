@@ -1,5 +1,5 @@
 <?php
-include 'database.php';
+include './Includes/database.php';
 
 $students = [];
 $comments = [];
@@ -62,7 +62,7 @@ if (!empty($students)) {
 
     </style>
         <?php
-include 'database.php';
+include './Includes/database.php';
 
 $students = [];
 $comments = [];

@@ -1,8 +1,7 @@
 <?php
-include 'session.php';
+include '../session.php';
 // Include the database connection file
-include 'database.php';
-
+include '../Includes/database.php';
 // Retrieve events from the database
 $events_query = "SELECT * FROM events";
 $events_result = $conn->query($events_query);
@@ -13,7 +12,7 @@ $serial_number = 1;
 
 <?php
 // Include the database connection file
-include 'database.php';
+include '../Includes/database.php';
 
 // Retrieve events from the database
 $events_query = "SELECT * FROM events";

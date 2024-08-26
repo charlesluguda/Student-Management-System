@@ -110,7 +110,7 @@ include 'session.php';
     <a href="dashboard.php" class="dashboard-btn">Go to Dashboard</a>
     <div class="container">
         <?php
-        include 'database.php';
+        include './Includes/database.php';
         // Fetch student information from the database based on studentID
         $studentID = isset($_GET['studentID']) ? $_GET['studentID'] : 'Unknown';
         $student_info_sql = "SELECT * FROM students WHERE studentID = '$studentID'";

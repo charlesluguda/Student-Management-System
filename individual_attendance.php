@@ -1,7 +1,7 @@
 <?php
 // Include the database connection file
 include 'session.php';
-include 'database.php';
+include './Includes/database.php';
 
 // Retrieve the studentID from the URL parameter
 $studentID = $_GET['studentID'];

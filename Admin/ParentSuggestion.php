@@ -1,6 +1,6 @@
 <?php
 // Connect to MySQL database
-include 'database.php'; // Assuming you have a file named 'database.php' for database connection
+include '../Includes/database.php'; // Assuming you have a file named 'database.php' for database connection
 
 // Prepare and execute SQL statement to select suggestions from the database
 $stmt = $conn->prepare("SELECT * FROM suggestions");

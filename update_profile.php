@@ -1,8 +1,7 @@
 <?php
 
 include 'session.php';
-include 'database.php';
-
+include './Includes/database.php';
 // Check if form is submitted for updating profile
 if(isset($_POST['update_profile'])) {
     // Get form data

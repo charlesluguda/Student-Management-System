@@ -1,6 +1,5 @@
 <?php
-include 'session.php';
-?>
+include './Includes/database.php';?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

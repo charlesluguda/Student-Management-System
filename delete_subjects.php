@@ -1,8 +1,7 @@
 <?php
 // Include session.php and database.php
 include 'session.php';
-include 'database.php';
-
+include './Includes/database.php';
 // Check if subject ID is provided
 if (isset($_GET['subject_id']) && !empty($_GET['subject_id'])) {
     $subject_id = $_GET['subject_id'];

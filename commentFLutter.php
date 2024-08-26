@@ -1,6 +1,6 @@
 <?php
 
-include 'database.php';
+include './Includes/database.php';
 
 // Check if the required POST parameters are set
 if (isset($_POST['studentID'])) {

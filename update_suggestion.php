@@ -1,5 +1,5 @@
 <?php
-include 'database.php'; // Assuming you have a file named 'database.php' for database connection
+include './Includes/database.php'; // Assuming you have a file named 'database.php' for database connection
 
 if (isset($_GET['id'])) {
     $stmt = $conn->prepare("UPDATE suggestions SET is_read = 'Read' WHERE suggestionID = ?");

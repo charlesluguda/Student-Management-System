@@ -1,6 +1,6 @@
 <?php
 
-include 'database.php';
+include './Includes/database.php';
 
 // Receive student ID and class from Flutter
 $studentID = $_POST['studentID'];
